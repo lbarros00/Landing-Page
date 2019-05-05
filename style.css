@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	background-color: #6666cc;
+}
+
+/* Navigation Style */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#link-to-home {
+	font-weight: bold;
+	float: left;
+}
+
+ul > li {
+	float: right;
+}
+
+ul > li > a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px 14px;
+	text-decoration: none;
+}
+
+#support-button {
+	padding: 8px 24px;
+	margin-top: 8px;
+}
+
+#navigation-style {
+	margin: 2% 10%;
+}
+
+#navigation-style a {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* Hero Component Style */
+
+.call-to-action-style {
+	color: #fff;
+	margin: 80px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.call-to-action-style h1 {
+	line-height: 55px;
+	font-size: 2.5em;
+}
+
+.call-to-action-style input[type=text] {
+	padding: 13px 15px;
+	width: 300px;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h5 {
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+/*.triangle {
+    width         : 0;
+    height        : 0;
+    transform     : rotate(deg);    
+    border-left   : 550px solid #6633cc;
+    border-right  : 300px solid transparent;  
+    border-bottom : 100px solid transparent;
+}
+*/
+
+.primary-button {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #99cc99;
+	text-decoration: none;
+	color: #fff;
+	border: none;
+	padding: 14px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+.secondary-button {
+	background-color: #6666cc;
+	border: none;
+	padding: 14px;
+	border-radius: 5px;
+}
+
+.green-text {
+	color: #99ff99;
+}
+
+/* Footer Style */
+
+footer > ul {
+	float: left;
+}
