@@ -2,104 +2,123 @@
 <html>
 
 <head>
+    <meta charset=“utf-8”>
 	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Ubuntu" rel="stylesheet">
 </head>
 
 <body>
-	<ul id="navigation-style" role="navigation">
-	  <li id="link-to-home"><a href="#">MyWebNow</a></li>
-	  <li><button class="primary-button" id="support-button">Support</button></li>
-	  <li><a href="#">Login</a></li>
-	  <li><a href="#">Contact us</a></li>
-	  <li><a href="#">Why Us</a></li>
-	  <li><a href="#">Home</a></li>
-	</ul>
+	<section class="top">
+		<ul id="nav" role="navigation">
+		  <li style="float: left; font-weight: bold;"><a href="#">MyWebNow</a></li>
+		  <li><button class="primary-button" id="support-button">Support</button></li>
+		  <li><a href="#">Login</a></li>
+		  <li><a href="#">Contact us</a></li>
+		  <li><a href="#">Why Us</a></li>
+		  <li><a href="#">Home</a></li>
+		</ul>
 
-	<div class="call-to-action-style">
-		<div>
-			<h1>Get a website in <br/>15 minutes <span class="green-text">or less</span></h1>
-			<input type="text" placeholder="Write your domain name here."/>
-			<button class="primary-button">Search</button>
-		</div>
+		<section class="call-to-action-style">
+			<div>
+				<h1>Get a website in <br/>15 minutes <span style="color: #99ff99;">or less</span></h1>
+				<form id="domain-input">
+					<input type="text" name="domain"/>
+					<label for="domain">Write your domain name here.</label>
+					<button class="primary-button">Search</button>
+				</form>
+			</div>
+		</section>
+
+	<section class="learn-more">
+		<h5>LEARN HOW WE CAN ENHANCE YOUR BUSINESS</h5>
+
+		<button class="scroll-down-button"><img src="./img/icons/arrow.ico"/></button>
+	</section>
+
+	<section class="description">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. Maecenas sodales nibh id nunc ullamcorper, in dapibus lacus mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc vulputate tristique posuere. Vestibulum gravida nibh augue, eu venenatis libero feugiat quis.</p>
+
+		<button class="secondary-button">CREATE YOUR ACCOUNT</button>
+	</section>
+	</section>
+
+	<div style="text-align: center;">
+		<h2>Our Services</h2>
+		<hr width="5%" style="border-color: #000; margin: 0 auto 2% auto;">
 	</div>
+	<section class="bottom">
+		<section class="services">
+			<div class="service-card">
+				<img src="./img/web.png">
+				<h3>WEB HOSTING</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. </p>
+			</div>
+			<div class="service-card">
+				<img src="./img/reseller.png">
+				<h3>RESELLERS HOSTING</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. </p>
+			</div>
+			<div class="service-card">
+				<img src="./img/vps.png">
+				<h3>VPS HOSTING</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. </p>
+			</div>
+			<div class="service-card">
+				<img src="./img/cloud.png">
+				<h3>CLOUD HOSTING</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. </p>
+			</div>
+		</section>
 
-	<h5>LEARN HOW WE CAN ENHANCE YOUR BUSINESS</h5>
-	
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. Maecenas sodales nibh id nunc ullamcorper, in dapibus lacus mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc vulputate tristique posuere. Vestibulum gravida nibh augue, eu venenatis libero feugiat quis.</p>
+		<section class="create-account">
+			<div>
+				<p>
+					<span style="color: #9966cc;">Are you ready?</span><br/>
+					<span style="color: #663399">create an account, or contact us.</span>
+				</p>
+			</div>
+			<div>
+				<button class="secondary-button">CREATE YOUR ACCOUNT</button>
+				<button class="contact-button">CONTACT US</button>
+			</div>
+		</section>
+	</section>
 
-	<button class="secondary-button">CREATE YOUR ACCOUNT</button>
-
-	<h2>Our Services</h2>
-	<div>
-		<div>
-			<img src="">
-			<h3>WEB HOSTING</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. Maecenas sodales nibh id nunc ullamcorper, in dapibus lacus mattis.</p>
-		</div>
-		<div>
-			<img src="">
-			<h3>VPS HOSTING</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. Maecenas sodales nibh id nunc ullamcorper, in dapibus lacus mattis.</p>
-		</div>
-		<div>
-			<img src="">
-			<h3>RESELLERS HOSTING</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. Maecenas sodales nibh id nunc ullamcorper, in dapibus lacus mattis.</p>
-		</div>
-		<div>
-			<img src="">
-			<h3>CLOUD HOSTING</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec quam erat. Maecenas sodales nibh id nunc ullamcorper, in dapibus lacus mattis.</p>
-		</div>
-	</div>
-
-	<div>
-		<div>
-			Are you ready?
-			<p>create an account, or contact us.</p>
-		</div>
-		<div>
-			<button class="secondary-button">CREATE YOUR ACCOUNT</button>
-			<button class="secondary-button">CONTACT US</button>
-		</div>
-	</div>
+	<section class="footer-nav">
+		<ul>
+			<h4><img src="./img/icons/phone.ico" style="width: 5%;"/> +1 800 WEBSITE</h4>
+			<li><img src="./img/icons/mail.ico" style="width: 5%;"/> hello@mywebnow.com</li>
+			<li><img src="./img/icons/pin.ico" style="width: 5%;"/> 1 Main St<p id="address">Floor 6<br>New York, NY 10065</p></li>
+		</ul>
+		<ul>
+			<h4>Company</h4>
+			<li>About us</li>
+			<li>News</li>
+			<li>FAQ</li>
+			<li>Contact us</li>
+		</ul>
+		<ul>
+			<h4>Services</h4>
+			<li>Web Hosting</li>
+			<li>Cloud Hosting</li>
+			<li>VPS Servers</li>
+			<li>Domain Names</li>
+		</ul>
+		<ul>
+			<h4>Others</h4>
+			<li>Transfer domains</li>
+			<li>Customer Portal</li>
+			<li>Support Portal</li>
+			<li>Video Tutorials</li>
+		</ul>
+		<ul>
+			<li><img src="./img/icons/fb.ico" style="color: black;"/></li>
+			<li><img src="./img/icons/yt.ico"/></li>
+			<li><img src="./img/icons/twi.ico"/></li>
+		</ul>
+	</section>
 
 </body>
 
-<footer>
-	<ul>
-		<li>+1 800 WEBSITE</li>
-		<li>hello@mywebnow.com</li>
-		<li><p>1 Main St</p> <p>Floor 6,</p> <p>New York, NY 10005</p></li>
-	</ul>
-	<ul>
-		<li>Company</li>
-		<li>About us</li>
-		<li>News</li>
-		<li>FAQ</li>
-		<li>Contact us</li>
-	</ul>
-	<ul>
-		<li>Services</li>
-		<li>Web Hosting</li>
-		<li>Cloud Hosting</li>
-		<li>VPS Servers</li>
-		<li>Domain Names</li>
-	</ul>
-	<ul>
-		<li>Others</li>
-		<li>Transfer domains</li>
-		<li>Customer Portal</li>
-		<li>Support Portal</li>
-		<li>Video Tutorials</li>
-	</ul>
-	<ul>
-		<li>icons</li>
-		<li>icons</li>
-		<li>icons</li>
-	</ul>
-</footer>
 
 </html>
