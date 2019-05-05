@@ -259,3 +259,42 @@ h5 {
 #address {
 	margin: 0 7%;
 }
+
+/* Responsive */
+
+@media (min-width: 1420px) {
+	.top {
+		background-size: cover;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+	.service-card {
+		flex-basis: 100%;
+		margin: 2% 5%;
+	}
+	.service-card > p, h3 {
+		font-size: 12px;
+	}
+	h5 {
+		font-size: 9px;
+	}
+	.top {
+		background-size: cover;
+	}
+	.description > p {
+		font-size: 12px;
+	}
+	button {
+		font-size: 16px;
+	}
+	.create-account {
+		flex-direction: column;
+	}
+	.create-account > div > p {
+		font-size: 12px;
+	}
+	.footer-nav {
+	    flex-direction: column;
+	}
+}
